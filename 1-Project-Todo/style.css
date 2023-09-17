@@ -1,0 +1,122 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background-color: hsl(235, 21%, 11%);
+}
+.bg-desktop-dark {
+  background-image: url("./images/bg-desktop-dark.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.vertical-row {
+  margin-top: 7rem;
+}
+.very-dark-blue {
+  background: hsl(235, 24%, 19%);
+  color: hsl(234, 39%, 85%);
+  border: 1px solid hsl(233, 14%, 35%);
+}
+.my-border {
+  border: none;
+  border-radius: 3px;
+}
+input.my-input::placeholder {
+  color: var(--placeholder-color, hsl(234, 39%, 85%));
+  opacity: 0.4;
+}
+.my-card-font-size {
+  font-size: 13px;
+}
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 22px 70px 4px;
+}
+.list-padding {
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+#input:focus {
+  background-color: hsl(235, 24%, 19%);
+  color: hsl(234, 39%, 85%);
+}
+.delete-icon {
+  max-width: 14px;
+  max-height: 14px;
+  width: auto;
+  height: auto;
+  display: none;
+}
+.list-group-item:hover .delete-icon {
+  display: block;
+}
+.p-margin {
+  margin: 0;
+}
+.btn-padding {
+  width: 26px;
+  height: 26px;
+}
+#all {
+  color: hsl(220, 98%, 61%);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.btn-hover:hover {
+  color: hsl(234, 39%, 85%);
+}
+button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: hsl(233, 14%, 35%);
+}
+.button-check {
+  border: 2px solid hsl(233, 14%, 35%);
+  border-radius: 50%;
+}
+.button-check-click {
+  background: linear-gradient(to right, #00c7ff 0%, #6a43ff 80%);
+}
+.button-check:hover {
+  border-color: #6a43ff;
+}
+.input-btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 11px 3px 11px 0.9rem;
+}
+#circle {
+  border: 2px solid hsl(233, 14%, 35%);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+.input-btn:hover #circle {
+  border-color: #00c7ff;
+}
+.tick {
+  width: 40%;
+}
+.fa-solid.fa-plus {
+  background-image: linear-gradient(to right, #00c7ff 0%, #6a43ff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.display {
+  display: none !important;
+}
+.btn-active-color {
+  color: hsl(220, 98%, 61%);
+}
+.btn-deactive-color {
+  color: hsl(233, 14%, 35%) !important;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
