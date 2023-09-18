@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Screenshot
 
-!['./design/dark-mode.jpg']
-!['./desing/light-mode.jpg']
+![Todo App Dark Mode Appearence](design/dark-mode.jpg)
+![Todo App Light Mode Appearence](desing/light-mode.jpg)
 
 ### Links
 
