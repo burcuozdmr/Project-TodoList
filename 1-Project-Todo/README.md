@@ -33,7 +33,7 @@ Users should be able to:
 ### Screenshot
 
 ![Todo App Dark Mode Appearence](design/dark-mode.jpg)
-![Todo App Light Mode Appearence](desing/light-mode.jpg)
+![Todo App Light Mode Appearence](design/light-mode.jpg)
 
 ### Links
 
